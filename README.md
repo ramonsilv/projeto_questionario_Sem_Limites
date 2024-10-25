@@ -25,7 +25,8 @@ npm install nodejs
 
 ## 📖PERGUNTAS QUESTIONARIO
 
-> [!NOTE] > **_QUESTÃO 01:_ Soma dos Números Pares _[NIVEL FACIL]_** <br>
+> [!NOTE]
+> **_QUESTÃO 01:_ Soma dos Números Pares _[NIVEL FACIL]_** <br>
 > Escreva um algoritmo que receba um número inteiro positivo n e calcule a soma de todos os números pares de 1 até n.
 > Receba o número inteiro n.
 > Calcule a soma de todos os números pares no intervalo de 1 até n.
@@ -35,7 +36,8 @@ npm install nodejs
 > RESULTADO: A soma dos números pares deve ser exibida ao final.
 > Tratamento de Exceções: Se o usuário fornecer um valor inválido (como letras ou símbolos), o sistema deve exibir uma mensagem de erro e solicitar um número válido. <br><br>
 
-> [!NOTE] > **_QUESTÃO 02:_ Anagrama de Palíndromo _[NIVEL MEDIO]_** <br>
+> [!NOTE]
+>  **_QUESTÃO 02:_ Anagrama de Palíndromo _[NIVEL MEDIO]_** <br>
 > Dada uma string, escreva uma função que verifique se ela pode ser reorganizada para formar um palíndromo. Um palíndromo é uma palavra que pode ser lida da mesma forma de trás para frente.
 > Receba uma string.
 > Verifique se é possível reorganizar os caracteres da string para formar um palíndromo.
@@ -45,7 +47,8 @@ npm install nodejs
 > Resultado: Retornar true (verdadeiro) se a string puder ser reorganizada como palíndromo, caso contrário retornar false.
 > Tratamento de Exceções: Se a entrada for inválida (nula, vazia ou com caracteres não alfabéticos), deve-se exibir uma mensagem de erro e solicitar uma string válida. <br><br>
 
-> [!NOTE] > **_QUESTÃO 03:_ Problema da Mochila (Knapsack Problem)._[NIVEL DIFICIL]_** <br>
+> [!NOTE]
+>  **_QUESTÃO 03:_ Problema da Mochila (Knapsack Problem)._[NIVEL DIFICIL]_** <br>
 > Dado um conjunto de itens, onde cada item tem um peso e um valor, determine o valor máximo que pode ser obtido colocando itens em uma mochila com uma capacidade máxima de peso W. Cada item pode ser colocado na mochila apenas uma vez. Receba a capacidade da mochila (W), os valores e os pesos dos itens. Calcule o valor máximo que pode ser carregado na mochila sem exceder o limite de peso. Exiba o valor máximo possível.
 > A capacidade máxima da mochila (W), que deve ser um número inteiro positivo. Uma lista de valores dos itens, onde cada valor deve ser um número inteiro positivo. Uma lista de pesos dos itens, onde cada peso deve ser um número inteiro positivo. Limitação da Mochila: O total dos pesos dos itens colocados na mochila não deve exceder a capacidade máxima W. Cálculo de Valor Máximo: O algoritmo deve calcular a combinação de itens que maximiza o valor total sem exceder a capacidade da mochila.
 > Consistência dos Dados: O número de itens (valores) deve ser o mesmo que o número de pesos. Caso haja inconsistência (listas de tamanhos diferentes), o sistema deve exibir um erro.
